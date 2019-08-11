@@ -1,0 +1,27 @@
+.chart {
+  text-align: center;
+  width: 100%;
+  height: 800px;
+}
+
+.multiSelector {
+	margin-top: 10px;
+	width: 100%;
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.formControl {
+	margin: 8px;
+	width: 100%;
+    
+}
+.chips {
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.chip {
+	margin: 2px;
+}
