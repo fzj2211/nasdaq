@@ -63,7 +63,7 @@ export default class App extends React.Component {
     }
     if (value.length >= 0) {
       let tickers = value.join(',');
-      fetch('http://localhost:3389/api/stocks/chart?tickers=' + tickers)
+      fetch('http://47.99.220.232:3389/api/stocks/chart?tickers=' + tickers)
       .then(res => res.json())
       .then(result => {
         dataList[index] = result.data;
